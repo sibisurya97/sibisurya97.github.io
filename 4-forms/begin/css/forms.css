@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image:url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: orange;
+	border-bottom: 2px solid black;
+}
+p, [for="abtype"] {
+	margin-bottom: 2rem;
+	margin-top: 16px;
+}
+fieldset{
+	border: 1px solid black ;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+legend{
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.3rem;
+	border: 1px solid black;
+}
+footer {
+	
+	font-weight: bold;
+	background-color: orange;
+
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1rem;
+	border-bottom: 2px solid black;
+	border-top:2px solid black ;
+	padding-bottom: 1rem;
+
+
+}
+label {
+	display: block;
+}
+textarea{
+	height: 10rem;
+	padding: 0.5rem;
+}
+select {
+	font-size: 1rem;
+	padding: 0 0.3rem;
+}
+button{
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color:lightcoral;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin: 0 1.5rem;
+	border-radius: 10px;
+}
+button:hover{
+	background-color:white;
+	
+}
+input:not([type="radio"]):not([type="checkbox"]),textarea,select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: o 1rem;
+	width: 20rem;
+	display: block;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+}
+h1,h3,legend,footer{
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
